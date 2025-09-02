@@ -9,16 +9,23 @@
 <body>
   <h1>Garam Tava Club</h1>
 
+  <!-- Name field -->
+  <input type="text" id="customer-name" placeholder="Customer's name..." required />
+
+  <!-- Menu container -->
   <div id="menu-container"></div>
 
+  <!-- Notes -->
   <textarea id="notes" placeholder="Any notes for kitchen..."></textarea>
 
+  <!-- Totals -->
   <div id="totals">
     <p>Subtotal: $<span id="subtotal">0.00</span></p>
     <p>Tax (9%): $<span id="tax">0.00</span></p>
     <p style="font-size: 24px; font-weight: bold;">Total: $<span id="total">0.00</span></p>
   </div>
-  
+
+  <!-- Submit button -->
   <button id="submit-btn">Submit Order</button>
 
   <script src="script.js"></script>
