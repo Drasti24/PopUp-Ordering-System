@@ -44,6 +44,7 @@ This is a lightweight, dynamic ordering system designed for popup food events. I
 Drasti Patel
 
 🍲 Built for Garam Tava Club popup events
+
 📍 Based in Ontario, Canada
 
 ---
